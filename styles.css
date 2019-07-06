@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#homesection {
+    padding-top: 10%;
+    min-height: 100vh;
+    background-color:#f3e5f5;
+}
+
+#question1 {
+    padding-top: 10%;
+    min-height: 100vh;
+    background-color:white;
+}
+
+#question2 {
+    padding-top: 10%;
+    min-height: 100vh;
+    background-color:#f5f5f5;
+}
+
+#question3 {
+    padding-top: 10%;
+    min-height: 100vh;
+    background-color:white;
+}
+
+#question4 {
+    padding-top: 10%;
+    min-height: 100vh;
+    background-color:#f5f5f5;
+}
+
+#question5 {
+    padding-top: 10%;
+    min-height: 100vh;
+    background-color:white;
+}
