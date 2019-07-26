@@ -37,3 +37,18 @@ html {
     min-height: 100vh;
     background-color:white;
 }
+
+.qn-btn {
+    margin-top: 40px;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: #303f9f;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, 
+[type="radio"].with-gap:checked+span:after {
+    border: 2px solid #303f9f;
+}
+
+

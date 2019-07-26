@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Linking my own CSS file -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Animating header -->
+    <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Saving Energy - Hanie Alia </title>
   </head>
 
   <body class="swal2-shown swal2-height-auto" style="padding-right: 0px;">
@@ -40,25 +41,25 @@
            <h3>1. Running a lawn mower for one hour is equal to:</h3>
            <div>
                 <label>
-                    <input class="with-gap" name="group3" type="radio" checked />
+                    <input class="with-gap" name="qn1" type="radio" value="1" />
                     <span>Driving a car for 20 miles (32 kilometers)</span>
                 </label>
            </div>
            <div>
               <label>
-                  <input class="with-gap" name="group3" type="radio" checked />
+                  <input class="with-gap" name="qn1" type="radio" value="2" />
                   <span>Leaving the lights on for an hour</span>
               </label>
          </div>
          <div>
             <label>
-                <input class="with-gap" name="group3" type="radio" checked />
+                <input class="with-gap" name="qn1" type="radio" value="3" />
                 <span>Cutting down 100 trees </span>
             </label>
        </div>
        <div>
           <label>
-              <input class="with-gap" name="group3" type="radio" checked />
+              <input class="with-gap" name="qn1" type="radio" value="4" />
               <span>All of the above</span>
           </label>
      </div>
@@ -76,25 +77,25 @@
             <h3>2. How much heating and cooling energy can strategically planted trees save?</h3>
             <div>
                  <label>
-                     <input class="with-gap" name="group3" type="radio" checked />
+                     <input class="with-gap" name="qn2" type="radio" value="1">
                      <span> Up to 10 percent </span>
                  </label>
             </div>
             <div>
                 <label>
-                    <input class="with-gap" name="group3" type="radio" checked />
+                    <input class="with-gap" name="qn2" type="radio" value="2"/>
                     <span> Up to 15 percent </span>
                 </label>
            </div>
            <div>
               <label>
-                  <input class="with-gap" name="group3" type="radio" checked />
+                  <input class="with-gap" name="qn2" type="radio" value="3"/>
                   <span> Up to 20 percent </span>
               </label>
          </div>
          <div>
             <label>
-                <input class="with-gap" name="group3" type="radio" checked />
+                <input class="with-gap" name="qn2" type="radio" value="4"/>
                 <span> Up to 25 percent </span>
             </label>
        </div>
@@ -114,13 +115,13 @@
             <h3> 3. True or False: Using inorganic fertilizers with phosphorus, which is often the catalyst for harmful algae blooms, is always bad. </h3>
             <div>
                  <label>
-                     <input class="with-gap" name="group3" type="radio" checked />
+                     <input class="with-gap" name="qn3" type="radio" value="1" />
                      <span>True</span>
                  </label>
             </div>
             <div>
                 <label>
-                    <input class="with-gap" name="group3" type="radio" checked />
+                    <input class="with-gap" name="qn3" type="radio" value="2" />
                     <span>False</span>
                 </label>
            </div>
@@ -140,25 +141,25 @@
             <h3>4. Green roofs can help do which of the followings?</h3>
             <div>
                  <label>
-                     <input class="with-gap" name="group3" type="radio" checked />
+                     <input class="with-gap" name="qn4" type="radio" value="1" />
                      <span>Decrease building cooling costs</span>
                  </label>
             </div>
             <div>
                 <label>
-                    <input class="with-gap" name="group3" type="radio" checked />
+                    <input class="with-gap" name="qn4" type="radio" value="2" />
                     <span>Moderate a city's climate</span>
                 </label>
            </div>
            <div>
               <label>
-                  <input class="with-gap" name="group3" type="radio" checked />
+                  <input class="with-gap" name="qn4" type="radio" value="3" />
                   <span>Filter rainwater</span>
               </label>
          </div>
          <div>
             <label>
-                <input class="with-gap" name="group3" type="radio" checked />
+                <input class="with-gap" name="qn4" type="radio" value="4" />
                 <span>All of the above</span>
             </label>
        </div>
@@ -177,30 +178,30 @@
             <h3>5. Which of the following won't help you save water when watering or tending to your lawn?</h3>
             <div>
                  <label>
-                     <input class="with-gap" name="group3" type="radio" checked />
+                     <input class="with-gap" name="qn5" type="radio" value="1" />
                      <span>Drip irrigation</span>
                  </label>
             </div>
             <div>
                 <label>
-                    <input class="with-gap" name="group3" type="radio" checked />
+                    <input class="with-gap" name="qn5" type="radio" value="2" />
                     <span>An in-ground sprinkler system</span>
                 </label>
            </div>
            <div>
               <label>
-                  <input class="with-gap" name="group3" type="radio" checked />
+                  <input class="with-gap" name="qn5" type="radio" value="3" />
                   <span>Watering at night</span>
               </label>
          </div>
          <div>
             <label>
-                <input class="with-gap" name="group3" type="radio" checked />
+                <input class="with-gap" name="qn5" type="radio" value="4" />
                 <span>Weeding</span>
             </label>
        </div>
        <br>
-       <button class="btn waves-effect waves-light btn-large indigo lighten-1" onclick="myFunction()">Submit Answers</button>
+       <button class="btn waves-effect waves-light btn-large indigo lighten-1" onclick="generateResult()">Submit Answers</button>
     </div>
      </div>
      
@@ -210,7 +211,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Linking my own JS file -->
     <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
   </body>
 </html>
       
